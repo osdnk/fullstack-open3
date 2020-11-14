@@ -60,7 +60,7 @@ describe('fav blog', () => {
 })
 
 
-describe('most blogs', () => {
+describe('most active author', () => {
   const listWithTreeBlogs = [
     {
       _id: '5a422aa71b54a676234d17f8',
@@ -98,7 +98,7 @@ describe('most blogs', () => {
 })
 
 
-describe('most blogs', () => {
+describe('most popular author', () => {
   const listWithTreeBlogs = [
     {
       _id: '5a422aa71b54a676234d17f8',
