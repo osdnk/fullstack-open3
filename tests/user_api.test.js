@@ -12,7 +12,7 @@ beforeEach(async () => {
 })
 
 describe('logging in', () => {
-  test('created and logs in with correct password', async () => {
+  test('creates and logs in with correct password', async () => {
     await api.post('/api/users').send({
       username: 'Test123',
       name: 'John',
@@ -26,7 +26,7 @@ describe('logging in', () => {
     expect(loginrequest.status).toBe(200)
   })
 
-  test('created and doesnt log in with incorrect password', async () => {
+  test('creates and doesnt log in with incorrect password', async () => {
     await api.post('/api/users').send({
       username: 'Test123',
       name: 'John',
